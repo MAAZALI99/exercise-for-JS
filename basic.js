@@ -26,6 +26,14 @@ let lastname = "Ali";
 
 console.log(firstname + lastname);
 
+// Temperature Converter
+
+let celsius = 25;
+let fahrenheit = (celsius * 9/5) + 32;
+console.log(`temperature in celsius ${celsius}`);
+console.log(`temperature in fahrenheit ${fahrenheit}`);
+
+
 // Try changing const
 const val = 10;
 // val = 20;
